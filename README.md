@@ -1,7 +1,7 @@
 # AWSBucketDump
 
  #### AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive.
- #### [@ok_bye_now](https://twitter.com/ok_bye_now)
+
 
 ## Pre-Requisites
 Non-Standard Python Libraries:
@@ -50,22 +50,4 @@ After building this tool, I did find an [interesting article](https://community.
       -m MAXSIZE    Maximum file size to download.
   
      python AWSBucketDump.py -l BucketNames.txt -g interesting_Keywords.txt -D -m 500000 -d 1
-
-### Contributors
-
-[jordanpotti](https://github.com/jordanpotti)
-
-[grogsaxle](https://github.com/grogsaxle)
-
-[codingo](https://github.com/codingo)
-
-[aarongorka](https://github.com/aarongorka)
-
-[BHaFSec](https://github.com/BHaFSec)
-
-[paralax](https://github.com/paralax)
-
-[fzzo](https://github.com/fzzo)
-
-[rypb](https://github.com/rypb)
 
